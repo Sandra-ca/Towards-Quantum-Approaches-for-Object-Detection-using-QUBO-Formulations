@@ -60,7 +60,7 @@ Three overlap/similarity measures are defined and combined in different QUBO var
 
 ## Solution Approaches
 
-### Gurobi (Exact MIP)
+### Gurobi
 Formulates the QUBO as a Binary Integer Program and solves it exactly using branch-and-bound. Deterministic but scales poorly with $N$.
 
 ### Simulated Annealing (D-Wave `neal`)
